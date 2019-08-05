@@ -56,6 +56,11 @@
                                 username: loginUsername,
                                 userpwd: loginUserPassword
                             }
+                        }).then(res => {
+                            const { data } = res;
+                            alert(data.message);
+                        }).catch(err => {
+                            console.log(err);
                         })
                     }
                 }
