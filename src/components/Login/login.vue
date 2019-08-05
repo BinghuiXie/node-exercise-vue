@@ -17,7 +17,7 @@
                     <input type="password" v-model="confirmPassword" placeholder="请再次确认密码" required/>
                 </div>
                 <button class="submit_button" @click="handleInfoSubmit">
-                    <span class="login_text" v-if="currentChoice === '登录'">登录</span>
+                    <span class="login_text" v-if="currentChoice === '登录'">这里是诺坎普！请登录</span>
                     <span class="signIn_text" v-else>注册</span>
                 </button>
             </div>
